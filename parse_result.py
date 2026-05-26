@@ -13,8 +13,8 @@ def parse_response(response):
             first_pdf = int(line.split(":")[1].strip())
         elif line.startswith("TOC:"):
             continue
-        elif ":" in line:
-            parts = line.split(":")
+        elif "<@>" in line:
+            parts = line.split("<@>")
             title = parts[0].strip()
             page = int(parts[1].strip())
             toc.append({"title": title, "printed_page": page})

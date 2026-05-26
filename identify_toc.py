@@ -26,7 +26,7 @@ def find_toc(pdf_path):
             FIRST_CHAPTER_PRINTED_PAGE: <number>
             FIRST_CHAPTER_PDF_PAGE: <number>
             TOC:
-            <chapter title> : <printed page number>
+            <chapter title> <@> <printed page number>
             """
         ]
     )
