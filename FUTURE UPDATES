@@ -1,0 +1,4 @@
+1. Deal when table of context switches from numeric numbers to roman numerals mostly for apendix
+     * Most people do not check apendix so will deal with later 
+     * Fixed by when encountering roman numerals go to the latest found offset and from there 
+        iterate throughout the toc to find this change.
